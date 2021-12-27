@@ -397,3 +397,15 @@
 			margin-left: auto;
 		}
 	}
+	.hamburger {
+		display: none;
+	}
+	@media only screen and (max-width: 991px){
+		.hamburger {
+			display: inherit;
+			text-align: right;
+		}	
+		.navigation {
+			display: none;
+		}
+	}
