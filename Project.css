@@ -400,15 +400,12 @@
 	.hamburger {
 		display: none;
 	}
-	.navigation {
-		display: inherit;
-	}
 	@media only screen and (max-width: 991px){
 		.hamburger {
 			display: inherit;
 			text-align: right;
 		}	
-		.navigation {
+		.navigation-responsive {
 			display: none;
 		}
 	}
