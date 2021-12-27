@@ -1,15 +1,14 @@
 $(function(){
-    $("#cancel").hide();
+
     $("#hamburger").click(function(){
-        $("#hamburger").hide();
-        $("#cancel").show();
-        $("#navigation-responsive").show();
+        $("#navigation-responsive").slideToggle();
         
-        $("#cancel").click(function(){
-            $("#hamburger").show();
-            $("#cancel").hide();
-            $("#navigation-responsive").hide();
-        });
-        
+    
     });
+    
+    if(x.matches){
+        location.reload(); 
+    }
+    var x = window.matchMedia("(min-width:992px)");
+    
 });
