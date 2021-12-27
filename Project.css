@@ -1,0 +1,399 @@
+.wrapper {
+	max-width: 2000px;
+	margin: 0 auto;
+}
+@media only screen and (min-width: 600px)  {
+	.header {
+		background-size: cover;
+	}
+	.logo-div {
+		padding-bottom: 50;
+		padding-top: 50;
+	}
+	.menu {
+		background-size: contain;
+		padding-right: 120;
+		padding-bottom: 50;
+		padding-top: 50;
+	}
+	.nav {
+		margin-left: 450px;
+		font-size: 23;
+	}
+	.nav-item {
+		padding: 15px;
+	}
+	.logo {
+		margin-left: 600px;
+	}
+	.opening {
+		margin-left: 670px;
+	}
+	.learn-more {
+		margin-left: 670px;
+		font-size: 30;
+	}
+	.icon {
+		margin-left: -30;
+		margin-bottom: 5;
+	}
+	.time {
+		margin-left: -120;
+	}
+	.social-netwrok-para {
+		padding-left: 200;
+		padding-right: 200;
+	}
+	.what-we-cook {
+		padding-left: 100;
+		padding-right: 100;
+		padding-top: 120;
+	}
+	.third-row {
+		padding: 120;
+	}
+	.food-price {
+		padding: 50;
+		text-align: center;
+	}
+	.keep-things-simple {
+		padding: 100;
+	}
+	.lorem-ipsum {
+		padding-right: 150;
+		padding-left: 150;
+	}
+	.nigiri {
+		width: 50%;
+	}
+	.food-icon {
+		text-align: right;
+	}
+	.jumbo-ios {
+		background-size: 100%;
+		padding-top: 280;
+		padding-bottom: 550;
+	}
+	.card-row {
+		padding: 100;
+		padding-top: 30;	
+	}
+}
+@media only screen and (max-width: 600px) {
+	.header {
+		background-size: 100%;
+	}
+	.body {
+		background-size: 100%;
+	}
+	.nav {
+		font-size: 12;
+	}
+	.opening {
+		text-align: center;
+	}
+	.learn-more {
+		font-size: 30;
+		width: 100%;
+	}
+	.what-we-cook {
+		text-align: center;
+	}
+	.new-tastes {
+		text-align: center;
+		padding-top: 30;
+		padding-bottom: 30;
+	}
+	.new-dishes {
+		text-align: center;
+		padding-top: 30;
+		padding-bottom: 30;
+	}
+	.new-restaurant {
+		text-align: center;
+		padding-top: 30;
+		padding-bottom: 30;
+	}
+	.tradition-1 {
+		text-align: center;
+	}
+	.food-price {
+		padding-top: 20;
+		padding-bottom: 20;
+		padding-left: 60;
+		padding-right: 60;
+		text-align: center;
+	}
+	.border-top {
+		border-top: 2px solid black;
+	}
+	.top-padding {
+		padding-top: 30;
+	}
+	.bottom-padding {
+		padding-bottom: 30;
+	}
+	.menu {
+		padding-top: 50;
+		padding-bottom: 50;
+		padding-right: 30;
+	}
+	.food-icon {
+		text-align: center;
+	}
+	.food-title {
+		text-align: center;
+		padding-top: 20;
+		padding-bottom: 20;
+	}
+	.icon {
+		margin-left: -30;
+		margin-bottom: 5;
+	}
+	.text {
+		padding-top: 20;
+	}
+	.new-menu {
+		font-size: 30;
+	}
+	.keep-things-simple-title {
+		width: 50%;
+	}
+}
+   /* iPad landscape style here */
+@media only screen
+  and (min-device-width : 600px)
+  and (max-device-width : 1024px)
+  and (orientation:landscape) 
+{
+	.logo {
+		margin-left: 0;
+	}
+	.opening {
+		margin-left: 0;
+	}
+	.learn-more {
+		margin-left: 0;
+	}
+	.tradition {
+		width: 100%;
+	}
+	.tradition-1 {
+		padding: 0;
+		padding-top: 0;
+	}
+	.jumbo-ios {
+		padding-top: 120;
+		padding-bottom: 170;
+	}
+	.card-text {
+		font-size: 12;
+	}
+}
+/* iPad portrait style here */
+@media only screen
+  and (min-device-width : 600px)
+  and (max-device-width : 1024px)
+  and (orientation:portrait) 
+{
+	.header {
+		background-size: 100%;
+	}
+	.body {
+		background-size: 80%;
+	}
+	.nav {
+		display: inline;
+		font-size: 15;
+		text-align: left;
+		
+	}
+	.nav-item {
+		display: inline;
+		
+	}
+	.nav-link {
+		display: inline;
+	}
+	.logo {
+		margin-left: 20;
+	}
+	.opening {
+		margin-left: 20;
+	}
+	.learn-more {
+		margin-left: 20;
+	}
+	.what-we-cook {
+		text-align: center;
+		padding-top: 0;
+	}
+	.tradition-1 {
+		text-align: center;
+	}
+	.ios {
+		padding-top: 20;
+	}
+	.discover-ios {
+		padding-left: 150;
+	}
+	.jumbo-ios {
+		background-size: 100%;
+		padding-bottom: 190;
+	}
+	.img-title {
+		width: auto;
+	}
+	.menu {
+		background-size: 100%;		
+	}
+	.card-ios {
+		margin: 10px auto 10px auto;
+	}
+	.about {
+		text-align: center;
+	}
+	.border-sm-device {
+		border-top: white 1px solid;
+	}
+}
+/* iPad Pro portrait style here */
+@media only screen
+  and (min-device-width : 1024px)
+  and (max-device-width : 1366px)
+  and (orientation:portrait) 
+{
+	.tradition {
+		width: 100%;
+	}
+	.ios-pro {
+		padding-top: 0;
+	}
+	.food-price {
+		padding: 20;
+	}
+	.border-sm-device {
+		border-top: none;
+	}
+	.jumbo-ios {
+		background-size: 100%;
+		padding-top: 150;
+		padding-bottom: 140;
+	}
+	.card-text {
+		font-size: 12.5;
+	}
+	.card-ios {
+		margin: 0;
+	}
+}
+
+/* Responsive style for 300px */
+@media only screen 
+	and (min-device-width: 200px)
+	and (max-device-width: 760px)
+	and (orientation : portrait) 
+	{
+	.what-we-cook-img {
+		width: 100%;
+	}
+	.we-bring-tradition {
+		width: 100%;
+	}
+	.tradition {
+		width: 100%;
+	}
+	.food-price-icon {
+		width: 100%;
+	}
+	.discover-icon {
+		width: 100%;
+	}
+	.book-here-icon {
+		width: 100%;
+	}
+	.img-title {
+		width: 100%;
+	}
+	.about-h {
+		font-size: 100%;
+		
+	}
+	.about {
+		text-align: center;
+	}
+	}
+	@media only screen 
+	and (min-device-width : 1400px)
+	and (max-device-width : 1050px)
+	{
+		.logo {
+			width: 100%;
+			margin-left: 0;
+		}
+		
+	}
+	.navigation {
+		animation-name: navigation;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-duration: 3s;
+		animation-direction: alternate;
+	}	
+	@keyframes navigation {
+		from {
+			display: none;
+			margin-left: -2000;
+		}
+		to {
+			margin-right: auto;
+		}
+	}
+	.logo-div {
+		animation-name: logo;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-duration: 2s;
+		animation-direction: alternate;
+	}
+	@keyframes logo {
+		from {
+			display: none;
+			margin-top: -2000;
+		}
+		to {
+			margin-bottom: auto;
+		}
+	}
+	.opening-div {
+		animation-name: opening;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-duration: 2s;
+		animation-direction: alternate;
+	}
+	@keyframes opening {
+		from {
+			display: none;
+			margin-left: -2000;
+		}
+		to {
+			margin-right: auto;
+		}
+	}
+	.learn-more-div {
+		animation-name: learn;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-duration: 2s;
+		animation-direction: alternate;
+	}
+	@keyframes learn {
+		from {
+			display: none;
+			margin-right: -2000;
+		}
+		to {
+			margin-left: auto;
+		}
+	}
