@@ -409,3 +409,7 @@
 			display: none;
 		}
 	}
+	
+	.navigation {
+		display: inherit;
+	}
